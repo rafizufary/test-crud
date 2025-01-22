@@ -49,6 +49,14 @@ DB_PASSWORD=
 ```
 
 Replace everything with your actual database credentials.
+
+## Testing
+
+To test the application feature, use the following commands:
+
+```javascript
+php artisan test
+```
  
 ## Usage
 
