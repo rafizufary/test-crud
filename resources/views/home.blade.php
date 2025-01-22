@@ -34,7 +34,7 @@
                     <span 
                         class="
                             @if ($task->status->status === 'Pending') text-danger
-                            @elseif ($task->status->status === 'In-Progress') text-primary
+                            @elseif ($task->status->status === 'In Progress') text-primary
                             @elseif ($task->status->status === 'Completed') text-success
                             @endif
                         ">
